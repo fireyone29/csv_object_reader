@@ -1,9 +1,12 @@
 csv_object_reader
 =================
 
-[![Build Status](https://travis-ci.org/fireyone29/csv_object_reader.svg?branch=develop)](https://travis-ci.org/fireyone29/csv_object_reader)
+.. image:: https://travis-ci.org/fireyone29/csv_object_reader.svg?branch=develop
+    :target: https://travis-ci.org/fireyone29/csv_object_reader
 
-[![Coverage Status](https://coveralls.io/repos/fireyone29/csv_object_reader/badge.svg?branch=develop)](https://coveralls.io/r/fireyone29/csv_object_reader?branch=develop)
+
+.. image:: https://coveralls.io/repos/fireyone29/csv_object_reader/badge.svg?branch=develop
+  :target: https://coveralls.io/r/fireyone29/csv_object_reader?branch=develop
 
 
 A simple module which mimics the `reader` classes from python's csv
