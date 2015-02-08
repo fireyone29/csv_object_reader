@@ -7,3 +7,9 @@ header instead of a list or dict.
 
 The ObjectReader also provides a way to make fields required to be
 present and required to be not empty.
+
+TODO
+----
+
+1) Add support for headers specified multiple times
+2) Add more filtering support
