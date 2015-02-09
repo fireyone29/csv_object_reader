@@ -13,12 +13,16 @@ csv_object_reader
     :target: http://csv-object-reader.readthedocs.org/en/latest/
     :alt: Documentation Status
 
+.. image:: https://badge.fury.io/py/csv_object_reader.png
+    :target: http://badge.fury.io/py/csv_object_reader
+
 
 Homepage
 --------
 
-Visit the home of `csv_object_reader` on the web:
-https://github.com/fireyone29/csv_object_reader
+Visit the home of `csv_object_reader` on the web at
+https://github.com/fireyone29/csv_object_reader or check out the docs
+at http://csv-object-reader.readthedocs.org/en/latest/
 
 
 Summary
