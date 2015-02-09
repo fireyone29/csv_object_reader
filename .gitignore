@@ -8,3 +8,6 @@
 .coverage
 .tox
 htmlcov
+
+# Sphinx
+docs/_build
