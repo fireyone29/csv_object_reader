@@ -17,6 +17,21 @@ class ObjectReader(object):
     """Returns an objects for each record in a csv file"""
     def __init__(self, raw_file, required_items=None, required_groups=None,
                  required_not_empty=True):
+        """
+        :param raw_file: Can be any object which supports the iterator
+            protocol and returns a string each time its next() method
+            is called.
+        :param required_items: List of field names which must appear
+            in the header.
+        :param required_groups: List of groups.  Each group is a list
+            of field names.  For each group, at least one of the
+            specified fields must appear in the header.
+        :param required_not_empty: If true, required fields and groups
+            must also be not empty.
+        :raises ValueError: If the header is empty or malformed.
+        :raises AttributeError: If required fields or groups are not
+            present.
+        """
         self.__stream = csv.reader(raw_file)
         header = next(self.__stream, None)
         if not header:
