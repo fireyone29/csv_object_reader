@@ -1,0 +1,18 @@
+language: python
+
+python:
+    - "3.4"
+    - "3.3"
+    - "2.7"
+    - "pypy"
+
+install:
+    - "pip install -r requirements.txt --use-mirrors"
+    - "pip install coverage"
+    - "pip install coveralls"
+
+script:
+    - "coverage run --source=csv_object_reader setup.py test"
+
+after_success:
+    coveralls
