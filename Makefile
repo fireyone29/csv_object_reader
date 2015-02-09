@@ -49,10 +49,8 @@ coverage:
 	coverage html
 
 docs:
-	rm -f docs/csv_object_reader.rst
-	rm -f docs/modules.rst
-	rm -f docs/csv_object_reader.object_reader.rst
-	sphinx-apidoc -e -o docs/ csv_object_reader
+	rm -f docs/api/*
+	sphinx-apidoc -e -o docs/api csv_object_reader
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 

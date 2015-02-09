@@ -4,8 +4,8 @@ import pkg_resources
 
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.autosummary'
 ]
 
 source_suffix = '.rst'
