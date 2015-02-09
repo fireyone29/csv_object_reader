@@ -6,7 +6,12 @@ csv_object_reader
 
 
 .. image:: https://coveralls.io/repos/fireyone29/csv_object_reader/badge.svg?branch=develop
-  :target: https://coveralls.io/r/fireyone29/csv_object_reader?branch=develop
+    :target: https://coveralls.io/r/fireyone29/csv_object_reader?branch=develop
+
+
+.. image:: https://readthedocs.org/projects/csv-object-reader/badge/?version=latest
+    :target: https://readthedocs.org/projects/csv-object-reader/?badge=latest
+    :alt: Documentation Status
 
 
 Homepage
