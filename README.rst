@@ -10,7 +10,7 @@ csv_object_reader
 
 
 .. image:: https://readthedocs.org/projects/csv-object-reader/badge/?version=latest
-    :target: https://readthedocs.org/projects/csv-object-reader/?badge=latest
+    :target: http://csv-object-reader.readthedocs.org/en/latest/
     :alt: Documentation Status
 
 
