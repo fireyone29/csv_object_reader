@@ -6,6 +6,7 @@ Submodules
 
 .. toctree::
 
+   csv_object_reader.filter
    csv_object_reader.object_reader
 
 Module contents
